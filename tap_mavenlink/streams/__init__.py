@@ -4,7 +4,7 @@ from tap_mavenlink.streams.account_memberships import AccountMembershipsStream
 #from tap_mavenlink.streams.estimates_scenarios import EstimatesScenariosStream
 from tap_mavenlink.streams.expenses import ExpensesStream
 from tap_mavenlink.streams.invoices import InvoicesStream
-#from tap_mavenlink.streams.posts import PostsStream
+from tap_mavenlink.streams.posts import PostsStream
 #from tap_mavenlink.streams.stories import StoriesStream
 #from tap_mavenlink.streams.time_entries import TimeEntriesStream
 #from tap_mavenlink.streams.users import UsersStream
@@ -17,7 +17,7 @@ AVAILABLE_STREAMS = [
     #EstimatesScenariosStream,
     ExpensesStream,
     InvoicesStream,
-    #PostsStream,
+    PostsStream,
     #StoriesStream,
     #TimeEntriesStream,
     #UsersStream,
@@ -31,7 +31,7 @@ __all__ = [
     #'EstimatesScenariosStream',
     'ExpensesStream',
     'InvoicesStream',
-    #'PostsStream',
+    'PostsStream',
     #'StoriesStream',
     #'TimeEntriesStream',
     #'UsersStream',

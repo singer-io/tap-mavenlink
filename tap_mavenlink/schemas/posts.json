@@ -1,0 +1,127 @@
+{
+    "type": "object",
+    "properties": {
+        "id": {
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        "attachment_ids": {
+            "type": "array",
+            "items":{
+                "type": "string"
+            }
+        },
+        "created_at": {
+            "type": "string",
+            "format": "date-time"
+        },
+        "external_reference_ids": {
+            "type": "array",
+            "items": {
+                "type": "string"
+            }
+        },   
+        "formatted_message":{
+          "type": "string"
+        },
+        "google_document_ids": {
+            "type": "array",
+            "items":{
+                "type": "string"
+            }
+        },
+        "has_attachments": {
+            "type": "boolean"
+        },  
+        "message": {
+            "type": "string"
+        },    
+        "newest_reply_at": {
+          "type": [
+              "null",
+              "string"
+              ],
+          "format": "date-time"
+        },
+        "newest_reply_id": {
+          "type": "string"
+        },  
+        "newest_reply_user_id": {
+          "type": "string"
+        },
+        "parsed_message": {
+          "type": "string"
+        }, 
+         "private": {
+              "type": "boolean"
+          },
+          "recipient_ids": {
+              "type": "array",
+              "items": {
+                  "type": "string"
+              }
+          },
+          "reply": {    
+              "type": "boolean"
+          },        
+          "reply_count": {
+              "type": "integer"
+          },        
+          "reply_ids": {
+              "type": "array",
+              "items": {
+                  "type": "string"
+              }
+          },    
+          "story_id": {
+              "type": [
+                  "null",
+                  "string"
+              ]
+          },
+          "subject_id": {
+              "type": [
+                  "null",
+                  "integer"
+              ]
+          },    
+          "subject_ref": {
+              "type": [
+                  "null",
+                  "object"
+              ],
+              "properties": {
+                  "key": {
+                      "type": "string"
+                  },
+                  "id": {
+                      "type": "string"
+                  }
+              }
+          },
+          "subject_title": {
+              "type": [
+                  "null",
+                  "string"
+                  ]
+          },
+          "subject_type": {
+              "type": [
+                  "null",
+                  "string"
+              ]
+          },
+          "updated_at": {
+              "type": "string",
+              "format": "date-time"
+          },
+          "user_id": {
+              "type": "string"
+          },
+          "workspace_id": {
+              "type": "string"
+          }
+    }
+}
