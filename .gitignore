@@ -7,5 +7,6 @@ singer-check-tap-data
 *.egg-info
 dist/
 get_catalog.py
+gen_schemas.sh
 env/
 run.sh

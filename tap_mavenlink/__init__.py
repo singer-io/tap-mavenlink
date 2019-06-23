@@ -18,9 +18,7 @@ class MavenlinkRunner(tap_framework.Runner):
 def main():
     args = singer.utils.parse_args(required_config_keys=['token'])
     client = MavenlinkClient(args.config)
-    streams = [s for s in AVAILABLE_STREAMS if s.ENABLED]
-    runner = MavenlinkRunner(
-        args, client, streams)
+    runner = MavenlinkRunner(args, client, AVAILABLE_STREAMS)
 
     if args.discover:
         runner.do_discover()

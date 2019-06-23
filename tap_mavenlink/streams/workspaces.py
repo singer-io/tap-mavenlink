@@ -16,10 +16,3 @@ class WorkspacesStream(BaseStream):
     @property
     def response_key(self):
         return 'workspaces'
-
-    @property
-    def include(self):
-        return [
-            'workspace_groups',
-            'timesheet_submissions'
-        ]

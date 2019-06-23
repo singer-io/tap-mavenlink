@@ -16,10 +16,3 @@ class ExpensesStream(BaseStream):
     @property
     def response_key(self):
         return 'expenses'
-
-    @property
-    def include(self):
-        return [
-            'receipt',
-            'expense_category'
-        ]

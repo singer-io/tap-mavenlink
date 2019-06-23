@@ -17,10 +17,3 @@ class PostsStream(BaseStream):
     @property
     def response_key(self):
         return 'posts'
-
-    @property
-    def include(self):
-        return [
-            'default_role',
-        ]
-

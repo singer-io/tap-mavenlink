@@ -4,124 +4,49 @@
     "object"
   ],
   "properties": {
-    "disabled_at": {
-      "type": [
-        "null",
-        "string"
-      ],
-      "format": "date-time"
-    },
-    "permission": {
+    "location": {
       "type": [
         "null",
         "string"
       ]
     },
-    "is_administrator": {
+    "created_at": {
       "type": [
         "null",
-        "boolean"
-      ]
-    },
-    "is_project_lead": {
-      "type": [
-        "null",
-        "boolean"
-      ]
-    },
-    "is_punch_clock_user": {
-      "type": [
-        "null",
-        "boolean"
-      ]
-    },
-    "can_create_workspace": {
-      "type": [
-        "null",
-        "boolean"
-      ]
-    },
-    "can_view_reports": {
-      "type": [
-        "null",
-        "boolean"
-      ]
-    },
-    "default_read_only": {
-      "type": [
-        "null",
-        "boolean"
-      ]
-    },
-    "is_owner": {
-      "type": [
-        "null",
-        "boolean"
-      ]
-    },
-    "should_show_alert_on_timesheet_submission": {
-      "type": [
-        "null",
-        "boolean"
-      ]
-    },
-    "enforce_workweek_minimum_on_timesheet_submission": {
-      "type": [
-        "null",
-        "boolean"
-      ]
-    },
-    "enforce_workweek_maximum_on_timesheet_submission": {
-      "type": [
-        "null",
-        "boolean"
-      ]
-    },
-    "require_time_entry_location": {
-      "type": [
-        "null",
-        "boolean"
-      ]
-    },
-    "manager_can_approve": {
-      "type": [
-        "null",
-        "boolean"
-      ]
-    },
-    "manager_can_edit_skills": {
-      "type": [
-        "null",
-        "boolean"
-      ]
-    },
-    "is_backup_approver": {
-      "type": [
-        "null",
-        "boolean"
-      ]
-    },
-    "resource_request_approver": {
-      "type": [
-        "null",
-        "boolean"
+        "string"
       ]
     },
     "updated_at": {
       "type": [
         "null",
         "string"
-      ],
-      "format": "date-time"
+      ]
     },
-    "created_at": {
+    "date_performed": {
       "type": [
         "null",
         "string"
-      ],
-      "format": "date-time"
+      ]
     },
-    "bill_rate_in_cents": {
+    "time_in_minutes": {
+      "type": [
+        "null",
+        "integer"
+      ]
+    },
+    "billable": {
+      "type": [
+        "null",
+        "boolean"
+      ]
+    },
+    "notes": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "rate_in_cents": {
       "type": [
         "null",
         "integer"
@@ -133,7 +58,55 @@
         "integer"
       ]
     },
-    "billability_target": {
+    "currency": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "currency_symbol": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "currency_base_unit": {
+      "type": [
+        "null",
+        "integer"
+      ]
+    },
+    "user_can_edit": {
+      "type": [
+        "null",
+        "boolean"
+      ]
+    },
+    "approved": {
+      "type": [
+        "null",
+        "boolean"
+      ]
+    },
+    "taxable": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "is_invoiced": {
+      "type": [
+        "null",
+        "boolean"
+      ]
+    },
+    "story_id": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "workspace_id": {
       "type": [
         "null",
         "string"
@@ -145,7 +118,7 @@
         "string"
       ]
     },
-    "default_role_id": {
+    "active_submission_id": {
       "type": [
         "null",
         "string"
