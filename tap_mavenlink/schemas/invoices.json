@@ -1,4 +1,207 @@
 {
     "type": "object",
-    "properties": {}
+    "properties": {
+        "additional_item_ids": {
+            "type": "array",
+            "items": {
+                "type": [
+                    "string",
+                    "null"
+                ]
+            },
+            "description": "`additional_item_ids` will only be included in the response if `additional_items` is in the list of included associations. See <a href='#section/Includes'>include</a> section for usage."
+        },
+        "balance_in_cents": {
+            "type": [
+                "integer",
+                "null"
+            ],
+            "description": "The balance, in cents, of the invoice."
+        },
+        "created_at": {
+            "type": [
+                "string",
+                "null"
+            ],
+            "format": "date-time",
+            "description": "The date the invoice was recorded in Mavenlink, in YY-MM-DD[T]HH:MM:SS-TIMEZONE format."
+        },
+        "currency": {
+            "type": [
+                "string",
+                "null"
+            ],
+            "description": "The currency being used for the invoice."
+        },
+        "currency_base_unit": {
+            "type": [
+                "integer",
+                "null"
+            ],
+            "description": "The number of the units in the `balance_in_cents` attribute that are required to make up a single unit of the `currency`."
+        },
+        "currency_symbol": {
+            "type": [
+                "string",
+                "null"
+            ],
+            "description": "The symbol that represents the currency being used for the invoice."
+        },
+        "draft": {
+            "type": [
+                "boolean",
+                "null"
+            ],
+            "description": "Whether or not the invoice is a draft."
+        },
+        "due_date": {
+            "type": [
+                "string",
+                "null"
+            ],
+            "format": "date",
+            "description": "The date the invoice is due, in YYYY-MM-DD format."
+        },
+        "expense_ids": {
+            "type": "array",
+            "items": {
+                "type": [
+                    "string",
+                    "null"
+                ]
+            },
+            "description": "`expense_ids` will only be included in the response if `expenses` is in the list of included associations. See <a href='#section/Includes'>include</a> section for usage."
+        },
+        "external_reference_ids": {
+            "type": "array",
+            "items": {
+                "type": [
+                    "string",
+                    "null"
+                ]
+            },
+            "description": "`external_reference_ids` will only be included in the response if `external_references` is in the list of included associations. See <a href='#section/Includes'>include</a> section for usage."
+        },
+        "fixed_fee_item_ids": {
+            "type": "array",
+            "items": {
+                "type": [
+                    "string",
+                    "null"
+                ]
+            },
+            "description": "`fixed_fee_item_ids` will only be included in the response if `fixed_fee_items` is in the list of included associations. See <a href='#section/Includes'>include</a> section for usage."
+        },
+        "invoice_date": {
+            "type": [
+                "string",
+                "null"
+            ],
+            "format": "date",
+            "description": "The date the invoice was incurred, in YYYY-MM-DD format."
+        },
+        "message": {
+            "type": [
+                "string",
+                "null"
+            ],
+            "description": "Any notes added to the invoice."
+        },
+        "payment_schedule": {
+            "type": [
+                "integer",
+                "null"
+            ],
+            "description": "The number of days within which the total amount of the invoice is expected to be paid. For example, use `30` for a Net 30 payment schedule. See https://en.wikipedia.org/wiki/Net_D."
+        },
+        "project_code": {
+            "type": [
+                "string",
+                "null"
+            ],
+            "description": "The invoice project code."
+        },
+        "purchase_order": {
+            "type": [
+                "string",
+                "null"
+            ],
+            "description": "The invoice purchase order."
+        },
+        "recipient_id": {
+            "type": [
+                "string",
+                "null"
+            ],
+            "description": "`recipient_id` will only be included in the response if `recipient` is in the list of included associations. See <a href='#section/Includes'>include</a> section for usage."
+        },
+        "status": {
+            "type": [
+                "string",
+                "null"
+            ],
+            "description": "The current status of the invoice ('new', 'cancelled', 'accepted payment')."
+        },
+        "tax_rate": {
+            "type": [
+                "number",
+                "null"
+            ],
+            "format": "float",
+            "description": "The tax rate percentage that is applied to the invoice total."
+        },
+        "time_entry_ids": {
+            "type": "array",
+            "items": {
+                "type": [
+                    "string",
+                    "null"
+                ]
+            },
+            "description": "`time_entry_ids` will only be included in the response if `time_entries` is in the list of included associations. See <a href='#section/Includes'>include</a> section for usage."
+        },
+        "title": {
+            "type": [
+                "string",
+                "null"
+            ],
+            "description": "A string of the format (Draft )Invoice #<user-invoice-number>."
+        },
+        "updated_at": {
+            "type": [
+                "string",
+                "null"
+            ],
+            "format": "date-time",
+            "description": "The date the invoice was last updated, in YY-MM-DD[T]HH:MM:SS-TIMEZONE format."
+        },
+        "user_id": {
+            "type": "string",
+            "description": "`user_id` will only be included in the response if `user` is in the list of included associations. See <a href='#section/Includes'>include</a> section for usage."
+        },
+        "user_invoice_number": {
+            "type": [
+                "integer",
+                "null"
+            ],
+            "description": "The invoice number."
+        },
+        "user_invoice_title": {
+            "type": [
+                "string",
+                "null"
+            ],
+            "description": "The title of the invoice."
+        },
+        "workspace_ids": {
+            "type": "array",
+            "items": {
+                "type": [
+                    "string",
+                    "null"
+                ]
+            },
+            "description": "`workspace_ids` will only be included in the response if `workspaces` is in the list of included associations. See <a href='#section/Includes'>include</a> section for usage."
+        }
+    }
 }

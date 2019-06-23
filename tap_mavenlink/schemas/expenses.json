@@ -1,4 +1,165 @@
 {
+    "title": "Expense",
+    "description": "Expenses are defined as costs incurred as part of a project, but not related to time. Once created, expenses can\nbe included in generated invoices.",
     "type": "object",
-    "properties": {}
+    "properties": {
+        "amount_in_cents": {
+            "type": [
+                "integer",
+                "null"
+            ],
+            "description": "The amount, in cents, of the expense."
+        },
+        "category": {
+            "type": [
+                "string",
+                "null"
+            ],
+            "description": "The category of the expense (can be any string). Built-in categories are:\nTravel, Mileage, Lodging, Food, Entertainment, and Other."
+        },
+        "created_at": {
+            "type": [
+                "string",
+                "null"
+            ],
+            "format": "date-time"
+        },
+        "currency": {
+            "type": [
+                "string",
+                "null"
+            ],
+            "description": "The currency of the expense."
+        },
+        "currency_base_unit": {
+            "type": [
+                "integer",
+                "null"
+            ],
+            "description": "The number of the units in the `amount_as_cents` attribute that are required to make up a single unit of the `currency`."
+        },
+        "currency_symbol": {
+            "type": [
+                "string",
+                "null"
+            ],
+            "description": "The symbol that represents the currency of the expense."
+        },
+        "date": {
+            "type": [
+                "string",
+                "null"
+            ],
+            "format": "date",
+            "description": "The date the expense was incurred."
+        },
+        "expense_category_id": {
+            "type": [
+                "string",
+                "null"
+            ],
+            "description": "`expense_category_id` will only be included in the response if `expense_category` is in the list of included associations. See <a href='#section/Includes'>include</a> section for usage."
+        },
+        "external_reference_ids": {
+            "type": "array",
+            "items": {
+                "type": [
+                    "string",
+                    "null"
+                ]
+            },
+            "description": "`external_reference_ids` will only be included in the response if `external_references` is in the list of included associations. See <a href='#section/Includes'>include</a> section for usage."
+        },
+        "is_billable": {
+            "type": [
+                "boolean",
+                "null"
+            ],
+            "description": "Whether this is a billable expense."
+        },
+        "is_invoiced": {
+            "type": [
+                "boolean",
+                "null"
+            ],
+            "description": "Whether this expense has been included on an invoice."
+        },
+        "notes": {
+            "type": [
+                "string",
+                "null"
+            ],
+            "description": "All notes that have been added to the expense."
+        },
+        "receipt_id": {
+            "type": [
+                "string",
+                "null"
+            ],
+            "description": "`receipt_id` will only be included in the response if `receipt` is in the list of included associations. See <a href='#section/Includes'>include</a> section for usage."
+        },
+        "reimbursable": {
+            "type": [
+                "boolean",
+                "null"
+            ],
+            "description": "Whether this expense is reimbursable to the creator or to a vendor."
+        },
+        "role_id": {
+            "type": [
+                "string",
+                "null"
+            ],
+            "description": "`role_id` will only be included in the response if `role` is in the list of included associations. See <a href='#section/Includes'>include</a> section for usage."
+        },
+        "story_id": {
+            "type": [
+                "string",
+                "null"
+            ],
+            "description": "`story_id` will only be included in the response if `story` is in the list of included associations. See <a href='#section/Includes'>include</a> section for usage."
+        },
+        "taxable": {
+            "type": [
+                "boolean",
+                "null"
+            ],
+            "description": "Whether this expense is marked as taxable when invoiced."
+        },
+        "updated_at": {
+            "type": [
+                "string",
+                "null"
+            ],
+            "format": "date-time"
+        },
+        "user_can_edit": {
+            "type": [
+                "boolean",
+                "null"
+            ],
+            "description": "Whether the viewing user can edit this expense."
+        },
+        "user_id": {
+            "type": [
+                "string",
+                "null"
+            ],
+            "description": "`user_id` will only be included in the response if `user` is in the list of included associations. See <a href='#section/Includes'>include</a> section for usage."
+        },
+        "vendor_id": {
+            "type": [
+                "string",
+                "null"
+            ],
+            "description": "`vendor_id` will only be included in the response if `vendor` is in the list of included associations. See <a href='#section/Includes'>include</a> section for usage."
+        },
+        "workspace_id": {
+            "type": [
+                "string",
+                "null"
+            ],
+            "description": "`workspace_id` will only be included in the response if `workspace` is in the list of included associations. See <a href='#section/Includes'>include</a> section for usage."
+        }
+    }
 }

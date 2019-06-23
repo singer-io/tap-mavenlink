@@ -10,3 +10,5 @@ get_catalog.py
 gen_schemas.sh
 env/
 run.sh
+debug/
+stitch/
