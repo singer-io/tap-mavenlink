@@ -1,68 +1,68 @@
 {
-  "type": [
-    "null",
-    "object"
-  ],
-  "properties": {
-    "full_name": {
-      "type": [
+    "type": [
         "null",
-        "string"
-      ]
-    },
-    "photo_path": {
-      "type": [
-        "null",
-        "string"
-      ]
-    },
-    "email_address": {
-      "type": [
-        "null",
-        "string"
-      ]
-    },
-    "headline": {
-      "type": [
-        "null",
-        "string"
-      ]
-    },
-    "generic": {
-      "type": [
-        "null",
-        "boolean"
-      ]
-    },
-    "disabled": {
-      "type": [
-        "null",
-        "boolean"
-      ]
-    },
-    "update_whitelist": {
-      "type": [
-        "null",
-        "array"
-      ],
-      "items": {
-        "type": [
-          "null",
-          "string"
-        ]
-      }
-    },
-    "account_id": {
-      "type": [
-        "null",
-        "string"
-      ]
-    },
-    "id": {
-      "type": [
-        "null",
-        "string"
-      ]
+        "object"
+    ],
+    "properties": {
+        "full_name": {
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        "photo_path": {
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        "email_address": {
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        "headline": {
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        "generic": {
+            "type": [
+                "null",
+                "boolean"
+            ]
+        },
+        "disabled": {
+            "type": [
+                "null",
+                "boolean"
+            ]
+        },
+        "update_whitelist": {
+            "type": [
+                "null",
+                "array"
+            ],
+            "items": {
+                "type": [
+                    "null",
+                    "string"
+                ]
+            }
+        },
+        "account_id": {
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        "id": {
+            "type": [
+                "null",
+                "string"
+            ]
+        }
     }
-  }
 }

@@ -1,161 +1,161 @@
 {
-  "type": [
-    "null",
-    "object"
-  ],
-  "properties": {
-    "disabled_at": {
-      "type": [
+    "type": [
         "null",
-        "string"
-      ],
-      "format": "date-time"
-    },
-    "permission": {
-      "type": [
-        "null",
-        "string"
-      ]
-    },
-    "is_administrator": {
-      "type": [
-        "null",
-        "boolean"
-      ]
-    },
-    "is_project_lead": {
-      "type": [
-        "null",
-        "boolean"
-      ]
-    },
-    "is_punch_clock_user": {
-      "type": [
-        "null",
-        "boolean"
-      ]
-    },
-    "can_create_workspace": {
-      "type": [
-        "null",
-        "boolean"
-      ]
-    },
-    "can_view_reports": {
-      "type": [
-        "null",
-        "boolean"
-      ]
-    },
-    "default_read_only": {
-      "type": [
-        "null",
-        "boolean"
-      ]
-    },
-    "is_owner": {
-      "type": [
-        "null",
-        "boolean"
-      ]
-    },
-    "should_show_alert_on_timesheet_submission": {
-      "type": [
-        "null",
-        "boolean"
-      ]
-    },
-    "enforce_workweek_minimum_on_timesheet_submission": {
-      "type": [
-        "null",
-        "boolean"
-      ]
-    },
-    "enforce_workweek_maximum_on_timesheet_submission": {
-      "type": [
-        "null",
-        "boolean"
-      ]
-    },
-    "require_time_entry_location": {
-      "type": [
-        "null",
-        "boolean"
-      ]
-    },
-    "manager_can_approve": {
-      "type": [
-        "null",
-        "boolean"
-      ]
-    },
-    "manager_can_edit_skills": {
-      "type": [
-        "null",
-        "boolean"
-      ]
-    },
-    "is_backup_approver": {
-      "type": [
-        "null",
-        "boolean"
-      ]
-    },
-    "resource_request_approver": {
-      "type": [
-        "null",
-        "boolean"
-      ]
-    },
-    "updated_at": {
-      "type": [
-        "null",
-        "string"
-      ],
-      "format": "date-time"
-    },
-    "created_at": {
-      "type": [
-        "null",
-        "string"
-      ],
-      "format": "date-time"
-    },
-    "bill_rate_in_cents": {
-      "type": [
-        "null",
-        "integer"
-      ]
-    },
-    "cost_rate_in_cents": {
-      "type": [
-        "null",
-        "integer"
-      ]
-    },
-    "billability_target": {
-      "type": [
-        "null",
-        "string"
-      ]
-    },
-    "user_id": {
-      "type": [
-        "null",
-        "string"
-      ]
-    },
-    "default_role_id": {
-      "type": [
-        "null",
-        "string"
-      ]
-    },
-    "id": {
-      "type": [
-        "null",
-        "string"
-      ]
+        "object"
+    ],
+    "properties": {
+        "disabled_at": {
+            "type": [
+                "null",
+                "string"
+            ],
+            "format": "date-time"
+        },
+        "permission": {
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        "is_administrator": {
+            "type": [
+                "null",
+                "boolean"
+            ]
+        },
+        "is_project_lead": {
+            "type": [
+                "null",
+                "boolean"
+            ]
+        },
+        "is_punch_clock_user": {
+            "type": [
+                "null",
+                "boolean"
+            ]
+        },
+        "can_create_workspace": {
+            "type": [
+                "null",
+                "boolean"
+            ]
+        },
+        "can_view_reports": {
+            "type": [
+                "null",
+                "boolean"
+            ]
+        },
+        "default_read_only": {
+            "type": [
+                "null",
+                "boolean"
+            ]
+        },
+        "is_owner": {
+            "type": [
+                "null",
+                "boolean"
+            ]
+        },
+        "should_show_alert_on_timesheet_submission": {
+            "type": [
+                "null",
+                "boolean"
+            ]
+        },
+        "enforce_workweek_minimum_on_timesheet_submission": {
+            "type": [
+                "null",
+                "boolean"
+            ]
+        },
+        "enforce_workweek_maximum_on_timesheet_submission": {
+            "type": [
+                "null",
+                "boolean"
+            ]
+        },
+        "require_time_entry_location": {
+            "type": [
+                "null",
+                "boolean"
+            ]
+        },
+        "manager_can_approve": {
+            "type": [
+                "null",
+                "boolean"
+            ]
+        },
+        "manager_can_edit_skills": {
+            "type": [
+                "null",
+                "boolean"
+            ]
+        },
+        "is_backup_approver": {
+            "type": [
+                "null",
+                "boolean"
+            ]
+        },
+        "resource_request_approver": {
+            "type": [
+                "null",
+                "boolean"
+            ]
+        },
+        "updated_at": {
+            "type": [
+                "null",
+                "string"
+            ],
+            "format": "date-time"
+        },
+        "created_at": {
+            "type": [
+                "null",
+                "string"
+            ],
+            "format": "date-time"
+        },
+        "bill_rate_in_cents": {
+            "type": [
+                "null",
+                "integer"
+            ]
+        },
+        "cost_rate_in_cents": {
+            "type": [
+                "null",
+                "integer"
+            ]
+        },
+        "billability_target": {
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        "user_id": {
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        "default_role_id": {
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        "id": {
+            "type": [
+                "null",
+                "string"
+            ]
+        }
     }
-  }
 }

@@ -1,134 +1,136 @@
 {
-  "type": [
-    "null",
-    "object"
-  ],
-  "properties": {
-    "location": {
-      "type": [
+    "type": [
         "null",
-        "string"
-      ]
-    },
-    "created_at": {
-      "type": [
-        "null",
-        "string"
-      ]
-    },
-    "updated_at": {
-      "type": [
-        "null",
-        "string"
-      ]
-    },
-    "date_performed": {
-      "type": [
-        "null",
-        "string"
-      ]
-    },
-    "time_in_minutes": {
-      "type": [
-        "null",
-        "integer"
-      ]
-    },
-    "billable": {
-      "type": [
-        "null",
-        "boolean"
-      ]
-    },
-    "notes": {
-      "type": [
-        "null",
-        "string"
-      ]
-    },
-    "rate_in_cents": {
-      "type": [
-        "null",
-        "integer"
-      ]
-    },
-    "cost_rate_in_cents": {
-      "type": [
-        "null",
-        "integer"
-      ]
-    },
-    "currency": {
-      "type": [
-        "null",
-        "string"
-      ]
-    },
-    "currency_symbol": {
-      "type": [
-        "null",
-        "string"
-      ]
-    },
-    "currency_base_unit": {
-      "type": [
-        "null",
-        "integer"
-      ]
-    },
-    "user_can_edit": {
-      "type": [
-        "null",
-        "boolean"
-      ]
-    },
-    "approved": {
-      "type": [
-        "null",
-        "boolean"
-      ]
-    },
-    "taxable": {
-      "type": [
-        "null",
-        "string"
-      ]
-    },
-    "is_invoiced": {
-      "type": [
-        "null",
-        "boolean"
-      ]
-    },
-    "story_id": {
-      "type": [
-        "null",
-        "string"
-      ]
-    },
-    "workspace_id": {
-      "type": [
-        "null",
-        "string"
-      ]
-    },
-    "user_id": {
-      "type": [
-        "null",
-        "string"
-      ]
-    },
-    "active_submission_id": {
-      "type": [
-        "null",
-        "string"
-      ]
-    },
-    "id": {
-      "type": [
-        "null",
-        "string"
-      ]
+        "object"
+    ],
+    "properties": {
+        "location": {
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        "created_at": {
+            "type": [
+                "null",
+                "string"
+            ],
+            "format": "date-time"
+        },
+        "updated_at": {
+            "type": [
+                "null",
+                "string"
+            ],
+            "format": "date-time"
+        },
+        "date_performed": {
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        "time_in_minutes": {
+            "type": [
+                "null",
+                "integer"
+            ]
+        },
+        "billable": {
+            "type": [
+                "null",
+                "boolean"
+            ]
+        },
+        "notes": {
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        "rate_in_cents": {
+            "type": [
+                "null",
+                "integer"
+            ]
+        },
+        "cost_rate_in_cents": {
+            "type": [
+                "null",
+                "integer"
+            ]
+        },
+        "currency": {
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        "currency_symbol": {
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        "currency_base_unit": {
+            "type": [
+                "null",
+                "integer"
+            ]
+        },
+        "user_can_edit": {
+            "type": [
+                "null",
+                "boolean"
+            ]
+        },
+        "approved": {
+            "type": [
+                "null",
+                "boolean"
+            ]
+        },
+        "taxable": {
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        "is_invoiced": {
+            "type": [
+                "null",
+                "boolean"
+            ]
+        },
+        "story_id": {
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        "workspace_id": {
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        "user_id": {
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        "active_submission_id": {
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        "id": {
+            "type": [
+                "null",
+                "string"
+            ]
+        }
     }
-  }
 }

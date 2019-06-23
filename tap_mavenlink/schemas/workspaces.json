@@ -1,428 +1,432 @@
 {
-  "type": [
-    "null",
-    "object"
-  ],
-  "properties": {
-    "title": {
-      "type": [
-        "null",
-        "string"
-      ]
-    },
-    "account_id": {
-      "type": [
-        "null",
-        "integer"
-      ]
-    },
-    "archived": {
-      "type": [
-        "null",
-        "boolean"
-      ]
-    },
-    "description": {
-      "type": [
-        "null",
-        "string"
-      ]
-    },
-    "due_date": {
-      "type": [
-        "null",
-        "string"
-      ]
-    },
-    "effective_due_date": {
-      "type": [
-        "null",
-        "string"
-      ]
-    },
-    "start_date": {
-      "type": [
-        "null",
-        "string"
-      ]
-    },
-    "budgeted": {
-      "type": [
-        "null",
-        "boolean"
-      ]
-    },
-    "change_orders_enabled": {
-      "type": [
-        "null",
-        "boolean"
-      ]
-    },
-    "updated_at": {
-      "type": [
-        "null",
-        "string"
-      ]
-    },
-    "created_at": {
-      "type": [
-        "null",
-        "string"
-      ]
-    },
-    "consultant_role_name": {
-      "type": [
-        "null",
-        "string"
-      ]
-    },
-    "client_role_name": {
-      "type": [
-        "null",
-        "string"
-      ]
-    },
-    "percentage_complete": {
-      "type": [
-        "null",
-        "integer"
-      ]
-    },
-    "access_level": {
-      "type": [
-        "null",
-        "string"
-      ]
-    },
-    "exclude_archived_stories_percent_complete": {
-      "type": [
-        "null",
-        "boolean"
-      ]
-    },
-    "can_create_line_items": {
-      "type": [
-        "null",
-        "boolean"
-      ]
-    },
-    "default_rate": {
-      "type": [
-        "null",
-        "string"
-      ]
-    },
-    "currency": {
-      "type": [
-        "null",
-        "string"
-      ]
-    },
-    "currency_symbol": {
-      "type": [
-        "null",
-        "string"
-      ]
-    },
-    "currency_base_unit": {
-      "type": [
-        "null",
-        "integer"
-      ]
-    },
-    "can_invite": {
-      "type": [
-        "null",
-        "boolean"
-      ]
-    },
-    "has_budget_access": {
-      "type": [
-        "null",
-        "boolean"
-      ]
-    },
-    "tasks_default_non_billable": {
-      "type": [
-        "null",
-        "boolean"
-      ]
-    },
-    "rate_card_id": {
-      "type": [
-        "null",
-        "integer"
-      ]
-    },
-    "workspace_invoice_preference_id": {
-      "type": [
-        "null",
-        "integer"
-      ]
-    },
-    "posts_require_privacy_decision": {
-      "type": [
-        "null",
-        "boolean"
-      ]
-    },
-    "require_time_approvals": {
-      "type": [
-        "null",
-        "boolean"
-      ]
-    },
-    "require_expense_approvals": {
-      "type": [
-        "null",
-        "boolean"
-      ]
-    },
-    "has_active_timesheet_submissions": {
-      "type": [
-        "null",
-        "boolean"
-      ]
-    },
-    "has_active_expense_report_submissions": {
-      "type": [
-        "null",
-        "boolean"
-      ]
-    },
-    "status": {
-      "type": [
+    "type": [
         "null",
         "object"
-      ],
-      "properties": {
-        "color": {
-          "type": [
-            "null",
-            "string"
-          ]
+    ],
+    "properties": {
+        "title": {
+            "type": [
+                "null",
+                "string"
+            ]
         },
-        "key": {
-          "type": [
-            "null",
-            "integer"
-          ]
+        "account_id": {
+            "type": [
+                "null",
+                "integer"
+            ]
         },
-        "message": {
-          "type": [
-            "null",
-            "string"
-          ]
-        }
-      }
-    },
-    "update_whitelist": {
-      "type": [
-        "null",
-        "array"
-      ],
-      "items": {
-        "type": [
-          "null",
-          "string"
-        ]
-      }
-    },
-    "account_features": {
-      "type": [
-        "null",
-        "object"
-      ],
-      "properties": {
-        "time_trackable": {
-          "type": [
-            "null",
-            "boolean"
-          ]
+        "archived": {
+            "type": [
+                "null",
+                "boolean"
+            ]
         },
-        "has_time_entry_role_picker": {
-          "type": [
-            "null",
-            "boolean"
-          ]
+        "description": {
+            "type": [
+                "null",
+                "string"
+            ]
         },
-        "project_side_panel": {
-          "type": [
-            "null",
-            "boolean"
-          ]
-        }
-      }
-    },
-    "permissions": {
-      "type": [
-        "null",
-        "object"
-      ],
-      "properties": {
-        "can_upload_files": {
-          "type": [
-            "null",
-            "boolean"
-          ]
+        "due_date": {
+            "type": [
+                "null",
+                "string"
+            ],
+            "format": "date-time"
         },
-        "can_private_message": {
-          "type": [
-            "null",
-            "boolean"
-          ]
+        "effective_due_date": {
+            "type": [
+                "null",
+                "string"
+            ]
         },
-        "can_join": {
-          "type": [
-            "null",
-            "boolean"
-          ]
+        "start_date": {
+            "type": [
+                "null",
+                "string"
+            ],
+            "format": "date-time"
         },
-        "is_participant": {
-          "type": [
-            "null",
-            "boolean"
-          ]
+        "budgeted": {
+            "type": [
+                "null",
+                "boolean"
+            ]
+        },
+        "change_orders_enabled": {
+            "type": [
+                "null",
+                "boolean"
+            ]
+        },
+        "updated_at": {
+            "type": [
+                "null",
+                "string"
+            ],
+            "format": "date-time"
+        },
+        "created_at": {
+            "type": [
+                "null",
+                "string"
+            ],
+            "format": "date-time"
+        },
+        "consultant_role_name": {
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        "client_role_name": {
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        "percentage_complete": {
+            "type": [
+                "null",
+                "integer"
+            ]
         },
         "access_level": {
-          "type": [
-            "null",
-            "string"
-          ]
+            "type": [
+                "null",
+                "string"
+            ]
         },
-        "team_lead": {
-          "type": [
-            "null",
-            "boolean"
-          ]
+        "exclude_archived_stories_percent_complete": {
+            "type": [
+                "null",
+                "boolean"
+            ]
         },
-        "user_is_client": {
-          "type": [
-            "null",
-            "boolean"
-          ]
+        "can_create_line_items": {
+            "type": [
+                "null",
+                "boolean"
+            ]
         },
-        "can_change_price": {
-          "type": [
-            "null",
-            "boolean"
-          ]
+        "default_rate": {
+            "type": [
+                "null",
+                "string"
+            ]
         },
-        "can_change_story_billable": {
-          "type": [
-            "null",
-            "boolean"
-          ]
+        "currency": {
+            "type": [
+                "null",
+                "string"
+            ]
         },
-        "can_post": {
-          "type": [
-            "null",
-            "boolean"
-          ]
+        "currency_symbol": {
+            "type": [
+                "null",
+                "string"
+            ]
         },
-        "can_edit": {
-          "type": [
-            "null",
-            "boolean"
-          ]
+        "currency_base_unit": {
+            "type": [
+                "null",
+                "integer"
+            ]
         },
-        "restricted": {
-          "type": [
-            "null",
-            "boolean"
-          ]
+        "can_invite": {
+            "type": [
+                "null",
+                "boolean"
+            ]
         },
-        "can_see_financials": {
-          "type": [
-            "null",
-            "boolean"
-          ]
+        "has_budget_access": {
+            "type": [
+                "null",
+                "boolean"
+            ]
+        },
+        "tasks_default_non_billable": {
+            "type": [
+                "null",
+                "boolean"
+            ]
+        },
+        "rate_card_id": {
+            "type": [
+                "null",
+                "integer"
+            ]
+        },
+        "workspace_invoice_preference_id": {
+            "type": [
+                "null",
+                "integer"
+            ]
+        },
+        "posts_require_privacy_decision": {
+            "type": [
+                "null",
+                "boolean"
+            ]
+        },
+        "require_time_approvals": {
+            "type": [
+                "null",
+                "boolean"
+            ]
+        },
+        "require_expense_approvals": {
+            "type": [
+                "null",
+                "boolean"
+            ]
+        },
+        "has_active_timesheet_submissions": {
+            "type": [
+                "null",
+                "boolean"
+            ]
+        },
+        "has_active_expense_report_submissions": {
+            "type": [
+                "null",
+                "boolean"
+            ]
+        },
+        "status": {
+            "type": [
+                "null",
+                "object"
+            ],
+            "properties": {
+                "color": {
+                    "type": [
+                        "null",
+                        "string"
+                    ]
+                },
+                "key": {
+                    "type": [
+                        "null",
+                        "integer"
+                    ]
+                },
+                "message": {
+                    "type": [
+                        "null",
+                        "string"
+                    ]
+                }
+            }
+        },
+        "update_whitelist": {
+            "type": [
+                "null",
+                "array"
+            ],
+            "items": {
+                "type": [
+                    "null",
+                    "string"
+                ]
+            }
+        },
+        "account_features": {
+            "type": [
+                "null",
+                "object"
+            ],
+            "properties": {
+                "time_trackable": {
+                    "type": [
+                        "null",
+                        "boolean"
+                    ]
+                },
+                "has_time_entry_role_picker": {
+                    "type": [
+                        "null",
+                        "boolean"
+                    ]
+                },
+                "project_side_panel": {
+                    "type": [
+                        "null",
+                        "boolean"
+                    ]
+                }
+            }
+        },
+        "permissions": {
+            "type": [
+                "null",
+                "object"
+            ],
+            "properties": {
+                "can_upload_files": {
+                    "type": [
+                        "null",
+                        "boolean"
+                    ]
+                },
+                "can_private_message": {
+                    "type": [
+                        "null",
+                        "boolean"
+                    ]
+                },
+                "can_join": {
+                    "type": [
+                        "null",
+                        "boolean"
+                    ]
+                },
+                "is_participant": {
+                    "type": [
+                        "null",
+                        "boolean"
+                    ]
+                },
+                "access_level": {
+                    "type": [
+                        "null",
+                        "string"
+                    ]
+                },
+                "team_lead": {
+                    "type": [
+                        "null",
+                        "boolean"
+                    ]
+                },
+                "user_is_client": {
+                    "type": [
+                        "null",
+                        "boolean"
+                    ]
+                },
+                "can_change_price": {
+                    "type": [
+                        "null",
+                        "boolean"
+                    ]
+                },
+                "can_change_story_billable": {
+                    "type": [
+                        "null",
+                        "boolean"
+                    ]
+                },
+                "can_post": {
+                    "type": [
+                        "null",
+                        "boolean"
+                    ]
+                },
+                "can_edit": {
+                    "type": [
+                        "null",
+                        "boolean"
+                    ]
+                },
+                "restricted": {
+                    "type": [
+                        "null",
+                        "boolean"
+                    ]
+                },
+                "can_see_financials": {
+                    "type": [
+                        "null",
+                        "boolean"
+                    ]
+                }
+            }
+        },
+        "over_budget": {
+            "type": [
+                "null",
+                "boolean"
+            ]
+        },
+        "expenses_in_burn_rate": {
+            "type": [
+                "null",
+                "boolean"
+            ]
+        },
+        "total_expenses_in_cents": {
+            "type": [
+                "null",
+                "integer"
+            ]
+        },
+        "price_in_cents": {
+            "type": [
+                "null",
+                "integer"
+            ]
+        },
+        "price": {
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        "percent_of_budget_used": {
+            "type": [
+                "null",
+                "integer"
+            ]
+        },
+        "budget_used": {
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        "budget_used_in_cents": {
+            "type": [
+                "null",
+                "integer"
+            ]
+        },
+        "budget_remaining": {
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        "target_margin": {
+            "type": [
+                "null",
+                "integer"
+            ]
+        },
+        "creator_id": {
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        "primary_maven_id": {
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        "id": {
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        "stories_are_fixed_fee_by_default": {
+            "type": [
+                "null",
+                "boolean"
+            ]
         }
-      }
-    },
-    "over_budget": {
-      "type": [
-        "null",
-        "boolean"
-      ]
-    },
-    "expenses_in_burn_rate": {
-      "type": [
-        "null",
-        "boolean"
-      ]
-    },
-    "total_expenses_in_cents": {
-      "type": [
-        "null",
-        "integer"
-      ]
-    },
-    "price_in_cents": {
-      "type": [
-        "null",
-        "integer"
-      ]
-    },
-    "price": {
-      "type": [
-        "null",
-        "string"
-      ]
-    },
-    "percent_of_budget_used": {
-      "type": [
-        "null",
-        "integer"
-      ]
-    },
-    "budget_used": {
-      "type": [
-        "null",
-        "string"
-      ]
-    },
-    "budget_used_in_cents": {
-      "type": [
-        "null",
-        "integer"
-      ]
-    },
-    "budget_remaining": {
-      "type": [
-        "null",
-        "string"
-      ]
-    },
-    "target_margin": {
-      "type": [
-        "null",
-        "integer"
-      ]
-    },
-    "creator_id": {
-      "type": [
-        "null",
-        "string"
-      ]
-    },
-    "primary_maven_id": {
-      "type": [
-        "null",
-        "string"
-      ]
-    },
-    "id": {
-      "type": [
-        "null",
-        "string"
-      ]
-    },
-    "stories_are_fixed_fee_by_default": {
-      "type": [
-        "null",
-        "boolean"
-      ]
     }
-  }
 }

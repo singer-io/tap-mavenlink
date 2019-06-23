@@ -1,74 +1,77 @@
 {
-  "type": [
-    "null",
-    "object"
-  ],
-  "properties": {
-    "name": {
-      "type": [
+    "type": [
         "null",
-        "string"
-      ]
-    },
-    "start_date": {
-      "type": [
-        "null",
-        "string"
-      ]
-    },
-    "budget_in_cents": {
-      "type": [
-        "null",
-        "integer"
-      ]
-    },
-    "target_margin_percent": {
-      "type": [
-        "null",
-        "number"
-      ]
-    },
-    "estimate_id": {
-      "type": [
-        "null",
-        "integer"
-      ]
-    },
-    "update_whitelist": {
-      "type": [
-        "null",
-        "array"
-      ],
-      "items": {
-        "type": [
-          "null",
-          "string"
-        ]
-      }
-    },
-    "created_at": {
-      "type": [
-        "null",
-        "string"
-      ]
-    },
-    "updated_at": {
-      "type": [
-        "null",
-        "string"
-      ]
-    },
-    "rate_card_id": {
-      "type": [
-        "null",
-        "string"
-      ]
-    },
-    "id": {
-      "type": [
-        "null",
-        "string"
-      ]
+        "object"
+    ],
+    "properties": {
+        "name": {
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        "start_date": {
+            "type": [
+                "null",
+                "string"
+            ],
+            "format": "date-time"
+        },
+        "budget_in_cents": {
+            "type": [
+                "null",
+                "integer"
+            ]
+        },
+        "target_margin_percent": {
+            "type": [
+                "null",
+                "number"
+            ]
+        },
+        "estimate_id": {
+            "type": [
+                "null",
+                "integer"
+            ]
+        },
+        "update_whitelist": {
+            "type": [
+                "null",
+                "array"
+            ],
+            "items": {
+                "type": [
+                    "null",
+                    "string"
+                ]
+            }
+        },
+        "created_at": {
+            "type": [
+                "null",
+                "string"
+            ],
+            "format": "date-time"
+        },
+        "updated_at": {
+            "type": [
+                "null",
+                "string"
+            ],
+            "format": "date-time"
+        },
+        "rate_card_id": {
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        "id": {
+            "type": [
+                "null",
+                "string"
+            ]
+        }
     }
-  }
 }

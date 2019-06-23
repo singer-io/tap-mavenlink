@@ -1,130 +1,132 @@
 {
-  "type": [
-    "null",
-    "object"
-  ],
-  "properties": {
-    "newest_reply_at": {
-      "type": [
-        "null",
-        "string"
-      ]
-    },
-    "message": {
-      "type": [
-        "null",
-        "string"
-      ]
-    },
-    "formatted_message": {
-      "type": [
-        "null",
-        "string"
-      ]
-    },
-    "parsed_message": {
-      "type": [
-        "null",
-        "string"
-      ]
-    },
-    "has_attachments": {
-      "type": [
-        "null",
-        "boolean"
-      ]
-    },
-    "created_at": {
-      "type": [
-        "null",
-        "string"
-      ]
-    },
-    "updated_at": {
-      "type": [
-        "null",
-        "string"
-      ]
-    },
-    "reply_count": {
-      "type": [
-        "null",
-        "integer"
-      ]
-    },
-    "reply": {
-      "type": [
-        "null",
-        "boolean"
-      ]
-    },
-    "private": {
-      "type": [
-        "null",
-        "boolean"
-      ]
-    },
-    "subject_title": {
-      "type": [
-        "null",
-        "string"
-      ]
-    },
-    "subject_id": {
-      "type": [
-        "null",
-        "integer"
-      ]
-    },
-    "subject_type": {
-      "type": [
-        "null",
-        "string"
-      ]
-    },
-    "subject_ref": {
-      "type": [
+    "type": [
         "null",
         "object"
-      ],
-      "properties": {
-        "id": {
-          "type": [
-            "null",
-            "string"
-          ]
+    ],
+    "properties": {
+        "newest_reply_at": {
+            "type": [
+                "null",
+                "string"
+            ]
         },
-        "key": {
-          "type": [
-            "null",
-            "string"
-          ]
+        "message": {
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        "formatted_message": {
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        "parsed_message": {
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        "has_attachments": {
+            "type": [
+                "null",
+                "boolean"
+            ]
+        },
+        "created_at": {
+            "type": [
+                "null",
+                "string"
+            ],
+            "format": "date-time"
+        },
+        "updated_at": {
+            "type": [
+                "null",
+                "string"
+            ],
+            "format": "date-time"
+        },
+        "reply_count": {
+            "type": [
+                "null",
+                "integer"
+            ]
+        },
+        "reply": {
+            "type": [
+                "null",
+                "boolean"
+            ]
+        },
+        "private": {
+            "type": [
+                "null",
+                "boolean"
+            ]
+        },
+        "subject_title": {
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        "subject_id": {
+            "type": [
+                "null",
+                "integer"
+            ]
+        },
+        "subject_type": {
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        "subject_ref": {
+            "type": [
+                "null",
+                "object"
+            ],
+            "properties": {
+                "id": {
+                    "type": [
+                        "null",
+                        "string"
+                    ]
+                },
+                "key": {
+                    "type": [
+                        "null",
+                        "string"
+                    ]
+                }
+            }
+        },
+        "user_id": {
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        "workspace_id": {
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        "story_id": {
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        "id": {
+            "type": [
+                "null",
+                "string"
+            ]
         }
-      }
-    },
-    "user_id": {
-      "type": [
-        "null",
-        "string"
-      ]
-    },
-    "workspace_id": {
-      "type": [
-        "null",
-        "string"
-      ]
-    },
-    "story_id": {
-      "type": [
-        "null",
-        "string"
-      ]
-    },
-    "id": {
-      "type": [
-        "null",
-        "string"
-      ]
     }
-  }
 }

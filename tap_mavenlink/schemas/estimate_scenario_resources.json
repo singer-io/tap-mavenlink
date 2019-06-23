@@ -1,94 +1,94 @@
 {
-  "type": [
-    "null",
-    "object"
-  ],
-  "properties": {
-    "label": {
-      "type": [
+    "type": [
         "null",
-        "string"
-      ]
-    },
-    "created_at": {
-      "type": [
-        "null",
-        "string"
-      ],
-      "format": "date-time"
-    },
-    "updated_at": {
-      "type": [
-        "null",
-        "string"
-      ],
-      "format": "date-time"
-    },
-    "update_whitelist": {
-      "type": [
-        "null",
-        "array"
-      ],
-      "items": {
-        "type": [
-          "null",
-          "string"
-        ]
-      }
-    },
-    "cost_rate": {
-      "type": [
-        "null",
-        "number"
-      ]
-    },
-    "can_edit_bill_rate": {
-      "type": [
-        "null",
-        "boolean"
-      ]
-    },
-    "bill_rate": {
-      "type": [
-        "null",
-        "integer"
-      ]
-    },
-    "role_name": {
-      "type": [
-        "null",
-        "string"
-      ]
-    },
-    "display_label": {
-      "type": [
-        "null",
-        "string"
-      ]
-    },
-    "user_id": {
-      "type": [
-        "null",
-        "string"
-      ]
-    },
-    "role_id": {
-      "type": [
-        "null",
-        "string"
-      ]
-    },
-    "geography_id": {
-      "type": [
-        "null",
-        "string"
-      ]
-    },
-    "id": {
-      "type": [
-        "null",
-        "string"
-      ]
+        "object"
+    ],
+    "properties": {
+        "label": {
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        "created_at": {
+            "type": [
+                "null",
+                "string"
+            ],
+            "format": "date-time"
+        },
+        "updated_at": {
+            "type": [
+                "null",
+                "string"
+            ],
+            "format": "date-time"
+        },
+        "update_whitelist": {
+            "type": [
+                "null",
+                "array"
+            ],
+            "items": {
+                "type": [
+                    "null",
+                    "string"
+                ]
+            }
+        },
+        "cost_rate": {
+            "type": [
+                "null",
+                "number"
+            ]
+        },
+        "can_edit_bill_rate": {
+            "type": [
+                "null",
+                "boolean"
+            ]
+        },
+        "bill_rate": {
+            "type": [
+                "null",
+                "integer"
+            ]
+        },
+        "role_name": {
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        "display_label": {
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        "user_id": {
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        "role_id": {
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        "geography_id": {
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        "id": {
+            "type": [
+                "null",
+                "string"
+            ]
+        }
     }
-  }
 }

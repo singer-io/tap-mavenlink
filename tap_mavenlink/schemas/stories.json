@@ -1,242 +1,246 @@
 {
-  "type": [
-    "null",
-    "object"
-  ],
-  "properties": {
-    "title": {
-      "type": [
+    "type": [
         "null",
-        "string"
-      ]
-    },
-    "description": {
-      "type": [
-        "null",
-        "string"
-      ]
-    },
-    "updated_at": {
-      "type": [
-        "null",
-        "string"
-      ]
-    },
-    "assignment_timestamped_at": {
-      "type": [
-        "null",
-        "string"
-      ]
-    },
-    "created_at": {
-      "type": [
-        "null",
-        "string"
-      ]
-    },
-    "due_date": {
-      "type": [
-        "null",
-        "string"
-      ]
-    },
-    "start_date": {
-      "type": [
-        "null",
-        "string"
-      ]
-    },
-    "story_type": {
-      "type": [
-        "null",
-        "string"
-      ]
-    },
-    "state": {
-      "type": [
-        "null",
-        "string"
-      ]
-    },
-    "position": {
-      "type": [
-        "null",
-        "integer"
-      ]
-    },
-    "archived": {
-      "type": [
-        "null",
-        "boolean"
-      ]
-    },
-    "deleted_at": {
-      "type": [
-        "null",
-        "string"
-      ]
-    },
-    "sub_story_count": {
-      "type": [
-        "null",
-        "integer"
-      ]
-    },
-    "percentage_complete": {
-      "type": [
-        "null",
-        "integer"
-      ]
-    },
-    "priority": {
-      "type": [
-        "null",
-        "string"
-      ]
-    },
-    "has_proofing_access": {
-      "type": [
-        "null",
-        "boolean"
-      ]
-    },
-    "subtree_depth": {
-      "type": [
-        "null",
-        "integer"
-      ]
-    },
-    "time_trackable": {
-      "type": [
-        "null",
-        "boolean"
-      ]
-    },
-    "workspace_id": {
-      "type": [
-        "null",
-        "string"
-      ]
-    },
-    "creator_id": {
-      "type": [
-        "null",
-        "string"
-      ]
-    },
-    "parent_id": {
-      "type": [
-        "null",
-        "string"
-      ]
-    },
-    "root_id": {
-      "type": [
-        "null",
-        "string"
-      ]
-    },
-    "id": {
-      "type": [
-        "null",
-        "string"
-      ]
-    },
-    "ancestor_ids": {
-      "type": [
-        "null",
-        "array"
-      ],
-      "items": {
-        "type": [
-          "null",
-          "string"
-        ]
-      }
-    },
-    "time_estimate_in_minutes": {
-      "type": [
-        "null",
-        "integer"
-      ]
-    },
-    "logged_billable_time_in_minutes": {
-      "type": [
-        "null",
-        "integer"
-      ]
-    },
-    "logged_nonbillable_time_in_minutes": {
-      "type": [
-        "null",
-        "integer"
-      ]
-    },
-    "sub_stories_time_estimate_in_minutes": {
-      "type": [
-        "null",
-        "integer"
-      ]
-    },
-    "sub_stories_billable_time_in_minutes": {
-      "type": [
-        "null",
-        "integer"
-      ]
-    },
-    "weight": {
-      "type": [
-        "null",
-        "number"
-      ]
-    },
-    "budget_estimate_in_cents": {
-      "type": [
-        "null",
-        "integer"
-      ]
-    },
-    "budget_used_in_cents": {
-      "type": [
-        "null",
-        "integer"
-      ]
-    },
-    "uninvoiced_balance_in_cents": {
-      "type": [
-        "null",
-        "integer"
-      ]
-    },
-    "invoiced_balance_in_cents": {
-      "type": [
-        "null",
-        "integer"
-      ]
-    },
-    "sub_stories_budget_estimate_in_cents": {
-      "type": [
-        "null",
-        "integer"
-      ]
-    },
-    "sub_stories_budget_used_in_cents": {
-      "type": [
-        "null",
-        "integer"
-      ]
-    },
-    "fixed_fee": {
-      "type": [
-        "null",
-        "boolean"
-      ]
-    },
-    "billable": {
-      "type": [
-        "null",
-        "boolean"
-      ]
+        "object"
+    ],
+    "properties": {
+        "title": {
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        "description": {
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        "updated_at": {
+            "type": [
+                "null",
+                "string"
+            ],
+            "format": "date-time"
+        },
+        "assignment_timestamped_at": {
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        "created_at": {
+            "type": [
+                "null",
+                "string"
+            ],
+            "format": "date-time"
+        },
+        "due_date": {
+            "type": [
+                "null",
+                "string"
+            ],
+            "format": "date-time"
+        },
+        "start_date": {
+            "type": [
+                "null",
+                "string"
+            ],
+            "format": "date-time"
+        },
+        "story_type": {
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        "state": {
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        "position": {
+            "type": [
+                "null",
+                "integer"
+            ]
+        },
+        "archived": {
+            "type": [
+                "null",
+                "boolean"
+            ]
+        },
+        "deleted_at": {
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        "sub_story_count": {
+            "type": [
+                "null",
+                "integer"
+            ]
+        },
+        "percentage_complete": {
+            "type": [
+                "null",
+                "integer"
+            ]
+        },
+        "priority": {
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        "has_proofing_access": {
+            "type": [
+                "null",
+                "boolean"
+            ]
+        },
+        "subtree_depth": {
+            "type": [
+                "null",
+                "integer"
+            ]
+        },
+        "time_trackable": {
+            "type": [
+                "null",
+                "boolean"
+            ]
+        },
+        "workspace_id": {
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        "creator_id": {
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        "parent_id": {
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        "root_id": {
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        "id": {
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        "ancestor_ids": {
+            "type": [
+                "null",
+                "array"
+            ],
+            "items": {
+                "type": [
+                    "null",
+                    "string"
+                ]
+            }
+        },
+        "time_estimate_in_minutes": {
+            "type": [
+                "null",
+                "integer"
+            ]
+        },
+        "logged_billable_time_in_minutes": {
+            "type": [
+                "null",
+                "integer"
+            ]
+        },
+        "logged_nonbillable_time_in_minutes": {
+            "type": [
+                "null",
+                "integer"
+            ]
+        },
+        "sub_stories_time_estimate_in_minutes": {
+            "type": [
+                "null",
+                "integer"
+            ]
+        },
+        "sub_stories_billable_time_in_minutes": {
+            "type": [
+                "null",
+                "integer"
+            ]
+        },
+        "weight": {
+            "type": [
+                "null",
+                "number"
+            ]
+        },
+        "budget_estimate_in_cents": {
+            "type": [
+                "null",
+                "integer"
+            ]
+        },
+        "budget_used_in_cents": {
+            "type": [
+                "null",
+                "integer"
+            ]
+        },
+        "uninvoiced_balance_in_cents": {
+            "type": [
+                "null",
+                "integer"
+            ]
+        },
+        "invoiced_balance_in_cents": {
+            "type": [
+                "null",
+                "integer"
+            ]
+        },
+        "sub_stories_budget_estimate_in_cents": {
+            "type": [
+                "null",
+                "integer"
+            ]
+        },
+        "sub_stories_budget_used_in_cents": {
+            "type": [
+                "null",
+                "integer"
+            ]
+        },
+        "fixed_fee": {
+            "type": [
+                "null",
+                "boolean"
+            ]
+        },
+        "billable": {
+            "type": [
+                "null",
+                "boolean"
+            ]
+        }
     }
-  }
 }
