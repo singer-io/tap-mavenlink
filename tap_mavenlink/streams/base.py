@@ -21,6 +21,9 @@ class BaseStream(base):
     KEY_PROPERTIES = ['id']
     CACHE = False
 
+    def get_extra(self, parent_id):
+        return {}
+
     def get_url(self):
         return 'https://api.mavenlink.com/api/v1{}'.format(self.path)
 
@@ -34,15 +37,15 @@ class BaseStream(base):
         table = self.TABLE
 
         LOGGER.info('Syncing data for {}'.format(table))
-        self.sync_paginated(self.get_params())
+        self.sync_paginated(self.get_params(), {})
 
-    def sync_paginated(self, params):
+    def sync_paginated(self, params, extra):
         table = self.TABLE
         url = self.get_url()
 
         while True:
             result = self.client.make_request(url, self.API_METHOD, params=params)
-            transformed = self.get_stream_data(result)
+            transformed = self.get_stream_data(result, extra)
 
             with singer.metrics.record_counter(endpoint=table) as counter:
                 singer.write_records(table, transformed)
@@ -57,12 +60,13 @@ class BaseStream(base):
             else:
                 params['page'] += 1
 
-    def get_stream_data(self, result):
+    def get_stream_data(self, result, extra):
         payload_dict = result[self.response_key]
         payload_values = payload_dict.values()
 
         transformed = []
         for i, record in enumerate(payload_values):
+            record.update(extra)
             record = self.transform_record(record)
             if self.CACHE:
                 pk = record['id']
@@ -80,4 +84,5 @@ class ResourceSubStream(BaseStream):
         for pk in ResourceCache[self.PARENT]:
             params = self.get_params(pk)
             LOGGER.info('Syncing data for {} (pk={})'.format(table, pk))
-            self.sync_paginated(params)
+            extra = self.get_extra(pk)
+            self.sync_paginated(params, extra=extra)

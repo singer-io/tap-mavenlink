@@ -12,6 +12,9 @@ class EstimatesResourcesStream(ResourceSubStream):
     PARENT = 'estimate_scenarios'
     KEY_PROPERTIES = ['id']
 
+    def get_extra(self, parent_id):
+        return {"estimate_scenario_id": parent_id}
+
     def get_params(self, pk, page_number=1, per_page=200):
         return {
             'page': page_number,
