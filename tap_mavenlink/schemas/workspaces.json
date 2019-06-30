@@ -427,6 +427,27 @@
                 "null",
                 "boolean"
             ]
+        },
+        "participant_ids": {
+            "type": ["null", "array"],
+            "items": {
+                "type": ["null", "string"]
+            },
+            "description": "`participant_ids` will only be included in the response if `participants` is in the list of included associations. See <a href='#section/Includes'>include</a> section for usage."
+        },
+        "participation_ids": {
+            "type": ["null", "array"],
+            "items": {
+                "type": ["null", "string"]
+            },
+            "description": "`participation_ids` will only be included in the response if `participations` is in the list of included associations. See <a href='#section/Includes'>include</a> section for usage."
+        },
+        "workspace_group_ids": {
+            "type": ["null", "array"],
+            "items": {
+                "type": ["null", "string"]
+            },
+            "description": "`workspace_group_ids` will only be included in the response if `workspace_groups` is in the list of included associations. See <a href='#section/Includes'>include</a> section for usage."
         }
     }
 }

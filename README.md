@@ -7,11 +7,21 @@ This is a [Singer](http://singer.io) tap that produces JSON-formatted data follo
 It:
 - Generates a catalog of available data in Mavenlink
 - Extracts the following resources:
-  - ...
-  - ...
-  - ...
-  - ...
-  - ...
+  - [Account Memberships](http://developer.mavenlink.com/account_memberships/)
+  - [Assignments](http://developer.mavenlink.com/assignments/)
+  - [Estimates](http://developer.mavenlink.com/estimates/)
+  - [Estimates Resources](http://developer.mavenlink.com/estimate_scenario_resources/)
+  - [Estimates Scenarios](http://developer.mavenlink.com/estimate_scenarios/)
+  - [Expenses](http://developer.mavenlink.com/expenses/)
+  - [Expense Categories](http://developer.mavenlink.com/expense_categories/)
+  - [Invoices](http://developer.mavenlink.com/invoices/)
+  - [Posts](http://developer.mavenlink.com/posts/)
+  - [Stories](http://developer.mavenlink.com/stories/)
+  - [Time Entries](http://developer.mavenlink.com/time_entries/)
+  - [Users](http://developer.mavenlink.com/users/)
+  - [Workspaces](http://developer.mavenlink.com/workspaces/)
+  - [Workspace Allocations](http://developer.mavenlink.com/beta/#tag/Workspace-Allocations)
+  - [Workspace Groups](http://developer.mavenlink.com/workspace_groups/)
 
 ### Quick Start
 
@@ -24,7 +34,10 @@ pip install .
 ```
 
 2. Get an API key
-... docs TK ...
+
+Create a Mavenlink [oauth2 application](http://developer.mavenlink.com/#oauth-20). After receiving an API token
+keep it somewhere safe, as you'll need it to authenticate requests. See "Create the config file" below for more
+information on using this API Token,
 
 3. Create the config file.
 
