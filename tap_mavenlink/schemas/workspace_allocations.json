@@ -1,0 +1,52 @@
+{
+    "type": "object",
+    "properties": {
+        "id": {
+            "type": ["string"]
+        },
+        "created_at": {
+            "type": ["null", "string"],
+            "format": "date-time"
+        },
+        "end_date": {
+            "type": ["null", "string"],
+            "format": "date",
+            "description": "The date the allocation ends on."
+        },
+        "hard": {
+            "type": ["null", "boolean"],
+            "description": "Indicates if the allocation is a Hard Allocation (\u201ctrue\u201d) or Soft (\u201cfalse\u201d)."
+        },
+        "minutes": {
+            "type": ["null", "integer"],
+            "format": "int32",
+            "description": "Total minutes the resource is allocated over the date range."
+        },
+        "notes": {
+            "type": ["null", "string"],
+            "description": "User entered notes about the allocation."
+        },
+        "percentage": {
+            "type": ["null", "number"],
+            "format": "float",
+            "description": "Percentage that a user is allocated compared to their capacity between the start and end date of the allocation."
+        },
+        "start_date": {
+            "type": ["null", "string"],
+            "format": "date",
+            "description": "The date the allocation starts on."
+        },
+        "updated_at": {
+            "type": ["null", "string"],
+            "format": "date-time"
+        },
+        "workspace_id": {
+            "type": ["null", "string"],
+            "description": "`workspace_id` will only be included in the response if `workspace` is in the list of included associations. See <a href='#section/Includes'>include</a> section for usage."
+        },
+        "workspace_resource_id": {
+            "type": ["null", "string"],
+            "description": "The id of the workspace resource that the allocation will be associated with."
+        }
+    }
+}

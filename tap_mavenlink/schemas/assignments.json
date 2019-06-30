@@ -1,0 +1,56 @@
+{
+    "type": "object",
+    "properties": {
+        "id": {
+            "type": ["null", "string"]
+        },
+        "update_whitelist": {
+            "type": ["null", "array"],
+            "items": {
+                "type": ["null", "string"]
+            }
+        },
+        "allocated_minutes": {
+            "type": ["null", "integer"],
+            "format": "int32",
+            "description": "The calculated sum of the assignment's Story Allocation Day minutes."
+        },
+        "assignee_id": {
+            "type": ["null", "string"],
+            "description": "`assignee_id` will only be included in the response if `assignee` is in the list of included associations. See <a href='#section/Includes'>include</a> section for usage."
+        },
+        "created_at": {
+            "type": ["null", "string"],
+            "format": "date-time"
+        },
+        "current": {
+            "type": ["null", "boolean"],
+            "description": "Whether the assignment is active."
+        },
+        "estimated_minutes": {
+            "type": ["null", "integer"],
+            "format": "int32",
+            "description": "The estimated number of minutes that the resource is expected to work on this task."
+        },
+        "resource_id": {
+            "type": ["null", "integer"],
+            "format": "int32",
+            "description": "The ID of the resource who owns the assignment."
+        },
+        "story_allocation_day_ids": {
+            "type": ["null", "array"],
+            "items": {
+                "type": "string"
+            },
+            "description": "`story_allocation_day_ids` will only be included in the response if `story_allocation_days` is in the list of included associations. See <a href='#section/Includes'>include</a> section for usage."
+        },
+        "story_id": {
+            "type": ["null", "string"],
+            "description": "`story_id` will only be included in the response if `story` is in the list of included associations. See <a href='#section/Includes'>include</a> section for usage."
+        },
+        "updated_at": {
+            "type": ["null", "string"],
+            "format": "date-time"
+        }
+    }
+}

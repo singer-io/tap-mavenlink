@@ -9,6 +9,11 @@ class WorkspacesStream(BaseStream):
     TABLE = 'workspaces'
     KEY_PROPERTIES = ['id']
 
+    def extra_params(self):
+        return {
+            "include": "workspace_groups,participants,participations"
+        }
+
     @property
     def path(self):
         return '/workspaces.json'

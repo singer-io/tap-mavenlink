@@ -3,6 +3,12 @@
     "description": "Expenses are defined as costs incurred as part of a project, but not related to time. Once created, expenses can\nbe included in generated invoices.",
     "type": "object",
     "properties": {
+        "id": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
         "amount_in_cents": {
             "type": [
                 "integer",
@@ -146,6 +152,12 @@
                 "null"
             ],
             "description": "`user_id` will only be included in the response if `user` is in the list of included associations. See <a href='#section/Includes'>include</a> section for usage."
+        },
+        "active_submission_id": {
+            "type": [
+                "string",
+                "null"
+            ]
         },
         "vendor_id": {
             "type": [

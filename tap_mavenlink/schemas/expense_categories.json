@@ -1,0 +1,17 @@
+{
+    "type": "object",
+    "properties": {
+        "id": {
+            "type": "string"
+        },
+        "deleted_at": {
+            "type": ["null", "string"],
+            "format": "date-time",
+            "description": "The time when the expense category was deleted (if it has been deleted)."
+        },
+        "name": {
+            "type": ["null", "string"],
+            "description": "The name of the expense category."
+        }
+    }
+}

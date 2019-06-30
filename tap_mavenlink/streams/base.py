@@ -27,11 +27,17 @@ class BaseStream(base):
     def get_url(self):
         return 'https://api.mavenlink.com/api/v1{}'.format(self.path)
 
+    def extra_params(self):
+        return {}
+
     def get_params(self, page_number=1, per_page=200):
-        return {
+        params = {
             'page': page_number,
             'per_page': per_page
         }
+
+        params.update(self.extra_params())
+        return params
 
     def sync_data(self):
         table = self.TABLE

@@ -1,0 +1,109 @@
+{
+    "type": "object",
+    "properties": {
+        "id": {
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        "address": {
+            "type": [
+                "null",
+                "string"
+            ],
+            "description": "The address of the company contact."
+        },
+        "company": {
+            "type": [
+                "null",
+                "boolean"
+            ],
+            "description": "Whether the group represents a company."
+        },
+        "contact_name": {
+            "type": [
+                "null",
+                "string"
+            ],
+            "description": "The name of the company contact."
+        },
+        "created_at": {
+            "type": [
+                "null",
+                "string"
+            ],
+            "format": "date-time",
+            "description": "When the group was created."
+        },
+        "email": {
+            "type": [
+                "null",
+                "string"
+            ],
+            "description": "The email of the company contact."
+        },
+        "external_reference_ids": {
+            "type": [
+                "null",
+                "array"
+            ],
+            "items": {
+                "type": [
+                    "null",
+                    "string"
+                ]
+            },
+            "description": "`external_reference_ids` will only be included in the response if `external_references` is in the list of included associations. See <a href='#section/Includes'>include</a> section for usage."
+        },
+        "name": {
+            "type": [
+                "null",
+                "string"
+            ],
+            "description": "The name of the group."
+        },
+        "notes": {
+            "type": [
+                "null",
+                "string"
+            ],
+            "description": "Notes on the group."
+        },
+        "phone_number": {
+            "type": [
+                "null",
+                "string"
+            ],
+            "description": "The phone number of the company contact."
+        },
+        "updated_at": {
+            "type": [
+                "null",
+                "string"
+            ],
+            "format": "date-time",
+            "description": "When the group was last updated."
+        },
+        "website": {
+            "type": [
+                "null",
+                "string"
+            ],
+            "description": "The website of the company contact."
+        },
+        "workspace_ids": {
+            "type": [
+                "null",
+                "array"
+            ],
+            "items": {
+                "type": [
+                    "null",
+                    "string"
+                ]
+            },
+            "description": "`workspace_ids` will only be included in the response if `workspaces` is in the list of included associations. See <a href='#section/Includes'>include</a> section for usage."
+        }
+    }
+}
