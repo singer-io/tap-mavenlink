@@ -270,6 +270,12 @@
                         "boolean"
                     ]
                 },
+                "is_guest_on_project": {
+                    "type": [
+                        "null",
+                        "boolean"
+                    ]
+                },
                 "can_private_message": {
                     "type": [
                         "null",
