@@ -11,7 +11,8 @@ class WorkspacesStream(BaseStream):
 
     def extra_params(self):
         return {
-            "include": "workspace_groups,participants,participations"
+            "include": "workspace_groups,participants,participations",
+            "include_archived": "true"
         }
 
     @property

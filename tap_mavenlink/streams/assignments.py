@@ -8,7 +8,13 @@ class AssignmentsStream(BaseStream):
     API_METHOD = 'GET'
     TABLE = 'assignments'
     KEY_PROPERTIES = ['id']
-
+    
+    def extra_params(self):
+        return {
+            "in_unarchived_workspaces": "false",
+            "in_unarchived_stories": "false"
+        }
+        
     @property
     def path(self):
         return '/assignments.json'

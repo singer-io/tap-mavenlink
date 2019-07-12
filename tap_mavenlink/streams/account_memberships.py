@@ -9,6 +9,11 @@ class AccountMembershipsStream(BaseStream):
     TABLE = 'account_memberships'
     KEY_PROPERTIES = ['id']
 
+    def extra_params(self):
+        return {
+            "only_active": "false"
+        }
+        
     @property
     def path(self):
         return '/account_memberships.json'

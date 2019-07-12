@@ -9,7 +9,12 @@ class TimeEntriesStream(BaseStream):
     API_METHOD = 'GET'
     TABLE = 'time_entries'
     KEY_PROPERTIES = ['id']
-
+    
+    def extra_params(self):
+        return {
+            "from_archived_workspaces": "true"
+        }
+        
     @property
     def path(self):
         return '/time_entries.json'
