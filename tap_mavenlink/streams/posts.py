@@ -9,7 +9,12 @@ class PostsStream(BaseStream):
     API_METHOD = 'GET'
     TABLE = 'posts'
     KEY_PROPERTIES = ['id']
-
+    
+    def extra_params(self):
+        return {
+            "from_archived_workspaces": "true"
+        }
+        
     @property
     def path(self):
         return '/posts.json'

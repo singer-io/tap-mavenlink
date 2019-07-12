@@ -9,6 +9,13 @@ class StoriesStream(BaseStream):
     API_METHOD = 'GET'
     TABLE = 'stories'
     KEY_PROPERTIES = ['id']
+    
+    def extra_params(self):
+        return {
+            "show_archived": "true",
+            "show_deleted": "true",
+            "show_from_archived_workspaces": "true"
+        }
 
     @property
     def path(self):
