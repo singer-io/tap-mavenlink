@@ -1,5 +1,7 @@
 from tap_mavenlink.streams.account_memberships import AccountMembershipsStream
 from tap_mavenlink.streams.assignments import AssignmentsStream
+from tap_mavenlink.streams.custom_fields import CustomFieldsStream
+from tap_mavenlink.streams.workspace_custom_field_values import WorkspaceCustomFieldValuesStream
 from tap_mavenlink.streams.estimates import EstimatesStream
 from tap_mavenlink.streams.estimates_scenarios import EstimatesScenariosStream
 from tap_mavenlink.streams.estimates_resources import EstimatesResourcesStream
@@ -17,6 +19,8 @@ from tap_mavenlink.streams.workspaces import WorkspacesStream
 AVAILABLE_STREAMS = [
     AccountMembershipsStream,
     AssignmentsStream,
+    CustomFieldsStream,
+    WorkspaceCustomFieldValuesStream,
 
     # Important: sync EstimatesScenarios before EstimatesResources
     EstimatesStream,
@@ -38,6 +42,8 @@ AVAILABLE_STREAMS = [
 __all__ = [
     'AccountMembershipsStream',
     'AssignmentsStream',
+    'CustomFieldsStream',
+    'WorkspaceCustomFieldValuesStream',
 
     'EstimatesStream',
     'EstimatesScenariosStream',

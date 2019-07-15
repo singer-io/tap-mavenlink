@@ -4,21 +4,20 @@ import singer
 LOGGER = singer.get_logger()  # noqa
 
 
-class WorkspacesStream(BaseStream):
+class WorkspaceCustomFieldValuesStream(BaseStream):
     API_METHOD = 'GET'
-    TABLE = 'workspaces'
+    TABLE = 'workspace_custom_field_values'
     KEY_PROPERTIES = ['id']
 
     def extra_params(self):
         return {
-            "include": "workspace_groups,participants,participations,custom_field_values",
-            "include_archived": "true"
+            "subject_type": "Workspace"
         }
 
     @property
     def path(self):
-        return '/workspaces.json'
+        return '/custom_field_values.json'
 
     @property
     def response_key(self):
-        return 'workspaces'
+        return 'custom_field_values'

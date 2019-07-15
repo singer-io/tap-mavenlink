@@ -1,0 +1,78 @@
+
+{
+    "type": "object",
+    "properties": {
+        "id": {
+            "type": "string"
+        },
+        "account_id": {
+            "type": "integer",
+            "format": "int32",
+            "description": "The ID of the account containing the custom field value."
+        },
+        "can_edit": {
+            "type": ["null", "boolean"],
+            "description": "Whether the custom field value can be edited by the user that is logged-in."
+        },
+        "created_at": {
+            "type": "string",
+            "format": "date-time"
+        },
+        "custom_field_id": {
+            "type": "string",
+            "description": "`custom_field_id` will only be included in the response if `custom_field` is in the list of included associations. See <a href='#section/Includes'>include</a> section for usage."
+        },
+        "custom_field_name": {
+            "type": ["null", "string"],
+            "description": "The name of the associated custom field."
+        },
+        "display_value": {
+            "type": ["null", "string"],
+            "description": "The formatted version of the value."
+        },
+        "selected_choice_ids": {
+            "type": ["null", "array"],
+            "items": {
+                "type": "string"
+            },
+            "description": "`selected_choice_ids` will only be included in the response if `selected_choices` is in the list of included associations. See <a href='#section/Includes'>include</a> section for usage."
+        },
+        "setter_id": {
+            "type": ["null", "string"],
+            "description": "`setter_id` will only be included in the response if `setter` is in the list of included associations. See <a href='#section/Includes'>include</a> section for usage."
+        },
+        "subject_id": {
+            "type": ["null", "integer"],
+            "format": "int32",
+            "description": "The internal ID of the entity type defined by the `subject_type` field."
+        },
+        "subject_ref": {
+            "type": ["null", "object"],
+            "description": "`subject_ref` will only be included in the response if `subject` is in the list of included associations. See <a href='#section/Includes'>include</a> section for usage.",
+            "properties": {
+                "key": {
+                    "type": "string"
+                },
+                "id": {
+                    "type": "string"
+                }
+            }
+        },
+        "subject_type": {
+            "type": ["null", "string"],
+            "description": "The type of entity with which the custom field value is associated. Valid types include `'Workspace'`, `'Story'`, and `'User'`."
+        },
+        "type": {
+            "type": ["null", "string"],
+            "description": "The type of value. The Current valid values are: `'string'`, `'date'`, `'number'`, `'currency'`,\n`'single'`, and `'multi'`."
+        },
+        "updated_at": {
+            "type": "string",
+            "format": "date-time"
+        },
+        "value": {
+            "type": ["null", "string"],
+            "description": "The value applied to the subject."
+        }
+    }
+}
