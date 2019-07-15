@@ -1,0 +1,66 @@
+{
+    "type": [
+        "null",
+        "object"
+    ],
+    "properties": {
+        "id": {
+            "type": ["string"]
+        },
+        "available_on_estimates": {
+            "type": ["string", "null"]
+        },
+        "choice_ids": {
+            "type": ["null", "array"],
+            "items": {
+                "type": "string"
+            },
+            "description": "`choice_ids` will only be included in the response if `choices` is in the list of included associations. See <a href='#section/Includes'>include</a> section for usage."
+        },
+        "created_at": {
+            "type": "string",
+            "format": "date-time"
+        },
+        "creator_id": {
+            "type": ["null", "string"],
+            "description": "`creator_id` will only be included in the response if `creator` is in the list of included associations. See <a href='#section/Includes'>include</a> section for usage."
+        },
+        "custom_field_set_id": {
+            "type": ["null", "string"],
+            "description": "`custom_field_set_id` will only be included in the response if `custom_field_set` is in the list of included associations. See <a href='#section/Includes'>include</a> section for usage."
+        },
+        "default_text": {
+            "type": ["null", "string"],
+            "description": "The placeholder text. This only applies for `'string'`, `'date'`, `'number'` and `'currency'` types.\nVisible when whether the custom field is an input field.."
+        },
+        "name": {
+            "type": ["null", "string"],
+            "description": "The name of the custom field."
+        },
+        "read_access": {
+            "type": ["null", "string"],
+            "description": "The permission level required to read values for the custom field."
+        },
+        "unique_constraint": {
+            "type": ["null", "boolean"],
+            "description": "An optional boolean constraint that forces the custom field value' `value` to be unique across a\n`subject_type`. The default is false. This only applies for`'string'`, `'date'`, `'number'`\nand `'currency'` types.\nVisible when whether the custom field is an input field.."
+        },
+        "updated_at": {
+            "type": "string",
+            "format": "date-time"
+        },
+        "value_type": {
+            "type": ["null", "string"],
+            "description": "The type of all custom field values on this field, defaulting to `'string'`. The current types are:\n`'string'`, `'date'`, `'number'`, `'currency'`, `'single'`, or `'multi'`."
+        },
+        "values_count": {
+            "type": ["null", "integer"],
+            "format": "int32",
+            "description": "The number of values associated with the custom field."
+        },
+        "write_access": {
+            "type": ["null", "string"],
+            "description": "The permission level required to create, update, and delete values for the custom field."
+        }
+    }
+}

@@ -454,6 +454,15 @@
                 "type": ["null", "string"]
             },
             "description": "`workspace_group_ids` will only be included in the response if `workspace_groups` is in the list of included associations. See <a href='#section/Includes'>include</a> section for usage."
+        },
+        "custom_field_value_id": {
+            "custom_field_value_id": "null"
+        },
+        "custom_field_value_ids": {
+            "custom_field_value_ids": ["null", "array"],
+            "items": {
+                "type": ["null", "string"]
+            }
         }
     }
 }
