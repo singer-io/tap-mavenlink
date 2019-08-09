@@ -6,6 +6,7 @@ LOGGER = singer.get_logger()  # noqa
 
 
 class UsersStream(BaseStream):
+    NAME = 'UsersStream'
     API_METHOD = 'GET'
     TABLE = 'users'
     KEY_PROPERTIES = ['id']

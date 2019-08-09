@@ -6,6 +6,7 @@ LOGGER = singer.get_logger()  # noqa
 
 
 class PostsStream(BaseStream):
+    NAME = 'PostsStream'
     API_METHOD = 'GET'
     TABLE = 'posts'
     KEY_PROPERTIES = ['id']

@@ -5,6 +5,7 @@ LOGGER = singer.get_logger()  # noqa
 
 
 class CustomFieldsStream(BaseStream):
+    NAME = 'CustomFieldsStream'
     API_METHOD = 'GET'
     TABLE = 'custom_fields'
     KEY_PROPERTIES = ['id']

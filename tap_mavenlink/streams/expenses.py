@@ -5,6 +5,7 @@ LOGGER = singer.get_logger()  # noqa
 
 
 class ExpensesStream(BaseStream):
+    NAME = 'ExpensesStream'
     API_METHOD = 'GET'
     TABLE = 'expenses'
     KEY_PROPERTIES = ['id']
