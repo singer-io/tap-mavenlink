@@ -5,6 +5,7 @@ LOGGER = singer.get_logger()  # noqa
 
 
 class WorkspaceCustomFieldValuesStream(BaseStream):
+    NAME = 'WorkspaceCustomFieldValuesStream'
     API_METHOD = 'GET'
     TABLE = 'workspace_custom_field_values'
     KEY_PROPERTIES = ['id']

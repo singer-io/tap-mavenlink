@@ -6,6 +6,7 @@ LOGGER = singer.get_logger()  # noqa
 
 
 class EstimatesScenariosStream(BaseStream):
+    NAME = 'EstimatesScenariosStream'
     API_METHOD = 'GET'
     TABLE = 'estimate_scenarios'
     KEY_PROPERTIES = ['id']

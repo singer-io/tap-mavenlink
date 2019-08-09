@@ -5,6 +5,7 @@ LOGGER = singer.get_logger()  # noqa
 
 
 class WorkspaceAllocationsStream(BaseStream):
+    NAME = 'WorkspaceAllocationsStream'
     API_METHOD = 'GET'
     TABLE = 'workspace_allocations'
     KEY_PROPERTIES = ['id']
