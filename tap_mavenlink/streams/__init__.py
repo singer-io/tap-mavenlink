@@ -39,24 +39,5 @@ AVAILABLE_STREAMS = [
     WorkspacesStream,
 ]
 
-__all__ = [
-    'AccountMembershipsStream',
-    'AssignmentsStream',
-    'CustomFieldsStream',
-    'WorkspaceCustomFieldValuesStream',
 
-    'EstimatesStream',
-    'EstimatesScenariosStream',
-    'EstimatesResourcesStream',
-
-    'ExpenseCategoriesStream',
-    'ExpensesStream',
-    'InvoicesStream',
-    'PostsStream',
-    'StoriesStream',
-    'TimeEntriesStream',
-    'UsersStream',
-    'WorkspaceAllocationsStream',
-    'WorkspaceGroupsStream',
-    'WorkspacesStream',
-]
+__all__ = [s.NAME for s in AVAILABLE_STREAMS]

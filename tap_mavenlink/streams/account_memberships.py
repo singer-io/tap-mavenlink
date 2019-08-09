@@ -5,6 +5,7 @@ LOGGER = singer.get_logger()  # noqa
 
 
 class AccountMembershipsStream(BaseStream):
+    NAME = 'AccountMembershipsStream'
     API_METHOD = 'GET'
     TABLE = 'account_memberships'
     KEY_PROPERTIES = ['id']

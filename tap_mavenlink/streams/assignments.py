@@ -5,6 +5,7 @@ LOGGER = singer.get_logger()  # noqa
 
 
 class AssignmentsStream(BaseStream):
+    NAME = 'AssignmentsStream'
     API_METHOD = 'GET'
     TABLE = 'assignments'
     KEY_PROPERTIES = ['id']

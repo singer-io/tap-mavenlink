@@ -7,6 +7,7 @@ LOGGER = singer.get_logger()  # noqa
 
 
 class EstimatesResourcesStream(ResourceSubStream):
+    NAME = 'EstimatesResourcesStream'
     API_METHOD = 'GET'
     TABLE = 'estimate_scenario_resources'
     PARENT = 'estimate_scenarios'
