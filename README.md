@@ -59,4 +59,4 @@ Step 4 generates a a file called `catalog.json` that specifies all the available
 tap-mavenlink -c config.json --catalog catalog.json
 ```
 
-Copyright &copy; 2019 Fishtown Analytics
+Copyright &copy; 2019 Stitch
