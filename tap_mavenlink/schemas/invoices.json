@@ -18,6 +18,12 @@
             ],
             "description": "The balance, in cents, of the invoice."
         },
+        "id": {
+            "type": [
+                "integer"
+            ],
+            "description": "The PK of the table."
+        },
         "created_at": {
             "type": [
                 "string",
