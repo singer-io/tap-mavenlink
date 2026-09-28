@@ -1,5 +1,11 @@
 # Changelog
 
+
+## 0.0.4
+
+* Bump `tap-framework` from `0.0.4` to `0.1.1` (Main/Runtime)
+
+
 ## 0.0.3
   * Fixes workspaces schema [#2](https://github.com/singer-io/tap-mavenlink/pull/2)
 

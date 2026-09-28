@@ -3,14 +3,14 @@
 from setuptools import setup, find_packages
 
 setup(name='tap-mavenlink',
-      version='0.0.3',
+      version='0.0.4',
       description='Singer.io tap for extracting data from the Mavenlink API',
       author='Fishtown Analytics',
       url='http://fishtownanalytics.com',
       classifiers=['Programming Language :: Python :: 3 :: Only'],
       py_modules=['tap_mavenlink'],
       install_requires=[
-          'tap-framework==0.0.4',
+          'tap-framework==0.1.1',
       ],
       entry_points='''
           [console_scripts]
